@@ -27,6 +27,7 @@ library
   exposed-modules:
       Comments
       LearningFunctions
+      LearningList
   other-modules:
       Paths_helloworld
   hs-source-dirs:
