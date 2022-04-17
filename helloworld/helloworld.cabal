@@ -28,6 +28,7 @@ library
       Comments
       LearningFunctions
       LearningList
+      ListExercise
   other-modules:
       Paths_helloworld
   hs-source-dirs:

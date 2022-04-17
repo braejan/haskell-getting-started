@@ -18,3 +18,4 @@ workWithLists = do
     putStrLn ("Power list: " ++ show powerList)
     let touple = [(x, y) |x <- xList, y <- booleanList]
     putStrLn ("Touple created: " ++ show touple)
+    putStrLn ("Total sum of list is: " ++ show(sum list))
