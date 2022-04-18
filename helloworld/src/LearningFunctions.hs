@@ -1,6 +1,7 @@
 module LearningFunctions
     ( inRange, calculations, greetings
     ) where
+
 inRange :: Integer -> Integer -> Integer -> Bool
 inRange min max x =
     x >= min && x <= max
@@ -25,7 +26,7 @@ very differently. Haskell guards can be simpler and easier to read than pattern
 matching
 -}
 greetings :: String -> IO()
-greetings name 
+greetings name
         | isEmpty name = putStrLn "Hello Who Has No Name, How're you?" --First guard
         | otherwise  =  putStrLn ("Hello " ++ name ++ ", How're doing today?") -- Second guard
 
