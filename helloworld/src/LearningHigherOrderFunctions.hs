@@ -18,4 +18,26 @@ module LearningHigherOrderFunctions(
         a new list with duplicated values.
         -}
         putStrLn ("Doble list: " ++ show doubleList)
-        --filter 
+        --filter if element is greater than 5
+        let filterLambda item = item > 5
+        let filteredList = filter filterLambda orderList
+        putStrLn ("Filtered list " ++ show filteredList)
+        --filter if element is grater than 5 and even
+        let filterLambdaWithPowers item = filterLambda item && even item
+        let filteredList = filter filterLambdaWithPowers orderList
+        putStrLn ("Filtered list 2" ++ show filteredList)
+
+        {-
+        An anonymous function is a function without a name. It is a Lambda
+        abstraction and might look like this: \x -> x + 1. (That backslash
+        is Haskell's way of expressing a λ and is supposed to look like a
+        Lambda.) 
+        let's create a add anonymous function
+        -}
+        let add = (\x -> (+) x 1)
+        {-
+        This can be improved like this: 
+        add x = (+) x 1
+        -}
+        putStrLn (" 5 + 1 = " ++ show(add 5))
+
