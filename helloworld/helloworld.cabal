@@ -26,9 +26,11 @@ source-repository head
 library
   exposed-modules:
       Comments
+      LearningComposition
       LearningFunctions
       LearningHigherOrderFunctions
       LearningList
+      LearningPartialFunction
       ListExercise
   other-modules:
       Paths_helloworld

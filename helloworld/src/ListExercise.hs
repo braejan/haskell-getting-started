@@ -1,6 +1,7 @@
 module ListExercise(
     callThem,
-    ListExercise.elem
+    ListExercise.elem,
+    nub
 ) where
 
     elem ::(Eq a) => a -> [a] ->Bool
