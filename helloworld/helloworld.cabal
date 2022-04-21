@@ -27,6 +27,7 @@ library
   exposed-modules:
       Comments
       LearningComposition
+      LearningDatatypes
       LearningFunctions
       LearningHigherOrderFunctions
       LearningList
