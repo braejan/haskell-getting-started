@@ -19,3 +19,4 @@ module FoldExercises(
     --                 xs             x
     --lagrange :: [(Float, Float)] -> Float -> Float
     --lagrange xs x = foldl ()
+    

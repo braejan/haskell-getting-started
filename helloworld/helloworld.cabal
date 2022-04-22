@@ -33,6 +33,7 @@ library
       LearningHigherOrderFunctions
       LearningList
       LearningPartialFunction
+      LearningRecords
       ListExercise
   other-modules:
       Paths_helloworld
