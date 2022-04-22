@@ -26,6 +26,7 @@ source-repository head
 library
   exposed-modules:
       Comments
+      FoldExercises
       LearningComposition
       LearningDatatypes
       LearningFunctions

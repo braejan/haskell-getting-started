@@ -5,7 +5,8 @@ module Main where
 --import LearningHigherOrderFunctions(call)
 --import LearningPartialFunction(call)
 --import LearningComposition(call)
-import LearningDatatypes(call)
+--import LearningDatatypes(call)
+import FoldExercises(call)
 main :: IO () 
 main = do
     --calculations 15 20
