@@ -7,7 +7,8 @@ module Main where
 --import LearningComposition(call)
 --import LearningDatatypes(call)
 --import FoldExercises(call)
-import LearningRecords(call)
+--import LearningRecords(call)
+import LearningTypeclasses(call)
 main :: IO () 
 main = do
     --calculations 15 20

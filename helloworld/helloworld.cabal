@@ -34,6 +34,7 @@ library
       LearningList
       LearningPartialFunction
       LearningRecords
+      LearningTypeclasses
       ListExercise
   other-modules:
       Paths_helloworld
