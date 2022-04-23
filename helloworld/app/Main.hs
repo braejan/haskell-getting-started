@@ -9,7 +9,7 @@ module Main where
 --import FoldExercises(call)
 --import LearningRecords(call)
 --import LearningTypeclasses(call)
-import LearningMaybe(call)
+--import LearningMaybe(call)
+import LearningIO(call)
 main :: IO () 
-main = do
-    call
+main = call
