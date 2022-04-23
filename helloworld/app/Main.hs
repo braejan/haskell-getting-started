@@ -8,10 +8,8 @@ module Main where
 --import LearningDatatypes(call)
 --import FoldExercises(call)
 --import LearningRecords(call)
-import LearningTypeclasses(call)
+--import LearningTypeclasses(call)
+import LearningMaybe(call)
 main :: IO () 
 main = do
-    --calculations 15 20
-    --greetings "Braejan David"
-    --workWithLists
     call
